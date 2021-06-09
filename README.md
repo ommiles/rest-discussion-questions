@@ -27,7 +27,7 @@ DELETE    |/books/:id      |#destroy  |DELETE  |DELETE FROM books WHERE id = :id
 
    * Which routes would you `render` a view and for which would you `redirect to` another route? Why?
 
-Render is for routes based on a GET.  Other methods do not have a render associated with them, 
+Render is for routes based on a GET.  Other methods do not have a render associated with them, so can be redirected.
 
 2. Let's say you have built an app that is a blogging platform. You have a Post and an Author model and you have controllers and routes for the CRUD actions of each model. You sit down at your computer and visit www.youramazingrailsblog.com/posts:
 
