@@ -8,7 +8,7 @@ Take 30 minutes with your table choose a *resource* that your server contains da
 
 ![](https://curriculum-content.s3.amazonaws.com/web-development/rails-intro-to-rest/rails_routes.png)
 
-| HTTP    | URL            | Route / Controller Action|CRUD   | SQL
+| HTTP    | URI            | Route / Controller Action|CRUD   | SQL
 | ------- | -------------- | ------- | ------ | -
 GET       |/books          |#index    |READ    |SELECT * FROM books
 GET       |/books/:id      |#show     |READ    |SELECT * FROM books WHERE id = :id LIMIT 1
